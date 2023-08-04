@@ -1,0 +1,3 @@
+"customer_id","film_id","title","replacement_cost","amount","rental_rate","payment_date","rental_date","return_date","acutal_rent_date","rental_duration","extra_date","extra_earning","diff_extra"
+16,492,"Jungle Closer","11.99","1.99","0.99","2007-02-18 03:24:38.996577","2005-07-08 06:29:43","2005-07-17 07:20:43","10",6,"4","1.00","-3.00"
+259,492,"Jungle Closer","11.99","1.99","0.99","2007-03-23 04:41:42.996577","2005-07-08 06:29:43","2005-07-17 07:20:43","10",6,"4","1.00","-3.00"
