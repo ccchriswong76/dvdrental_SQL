@@ -1,0 +1,98 @@
+# Film Revenue Analysis
+
+This repository contains SQL scripts focused on film revenue analysis and related insights.
+
+## Film Revenue Analysis Script (8a)
+
+**Script Purpose**: This script calculates various metrics related to film revenue.
+
+**Calculations**:
+- Calculates breakeven time of rental.
+- Computes rate of return.
+- Determines breakeven day for each film.
+
+**Ordering**:
+- Orders results by rate of return and breakeven day.
+
+**Output**:
+- A comprehensive analysis of film revenue metrics.
+- Output labeled as "8a."
+
+## Average Film Key Performance Indicators (KPIs) (8b)
+
+**Script Purpose**: This script calculates the average values of key performance indicators (KPIs) across films.
+
+**Calculations**:
+- Calculates average rental duration.
+- Computes average replacement cost.
+- Determines average rental rate.
+- Calculates average breakeven time.
+- Computes average rate of return.
+- Determines average breakeven day.
+
+**Output**:
+- A summary of average film KPIs.
+- Output labeled as "8b."
+
+## Revenue by Film (8c)
+
+**Script Purpose**: This script calculates total sales expected and total count for each film based on rental records.
+
+**Calculations**:
+- Computes total sales expected for each film.
+- Calculates the total count of rentals for each film.
+
+**Ordering**:
+- Orders results by total sales expected.
+
+**Output**:
+- A breakdown of revenue and rental counts for each film.
+- Output labeled as "8c."
+
+## Revenue by Film with Extra Info (8d)
+
+**Script Purpose**: This script joins film revenue analysis with revenue by film data for additional insights.
+
+**Join**:
+- Combines film revenue analysis with revenue by film data.
+
+**Output**:
+- A combined dataset with extended revenue information.
+- Output labeled as "8d."
+
+## Actor List for Each Film (8e)
+
+**Script Purpose**: This script generates a list of actors for each film using the film_actor and actor tables.
+
+**Calculation**:
+- Aggregates actor names for each film.
+
+**Output**:
+- A list of actors for each film.
+- Output labeled as "8e."
+
+## Join Actor List in Film Info (8f)
+
+**Script Purpose**: This script joins actor lists with film revenue data to provide comprehensive information.
+
+**Join**:
+- Combines actor lists with film revenue data.
+
+**Output**:
+- Detailed information about actors and associated film revenue.
+- Output labeled as "8f."
+
+## Actor Ranking (8g)
+
+**Script Purpose**: This script ranks actors based on their average film ranking, maximum rank, minimum rank, and film count.
+
+**Ranking**:
+- Ranks actors based on various metrics.
+- Filters out records where the film ID is null.
+
+**Ordering**:
+- Orders results by average rank.
+
+**Output**:
+- Rankings and statistics for actors' performances.
+- Output labeled as "8g."
