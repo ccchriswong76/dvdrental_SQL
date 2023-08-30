@@ -5,7 +5,7 @@ Data source: [PostgreSQL Sample Database](https://www.postgresqltutorial.com/pos
 
 ER diagram: [Download PDF](https://github.com/ccchriswong76/dvdrental_SQL/blob/48a78287e7286cdf6038130f5e5b4297efada2b4/printable%20postgresql%20sample%20database%20digram.psd.pdf)
 
-## [1. Investigating Relationships between Amount, Rental Rate, Return Date, and Rental Date](https://github.com/ccchriswong76/dvdrental_SQL/blob/2017e8477e8c4af29bbd1dd470a4c3a4b4e3c7de/relationship_date_price/relationship_date_price.sql)
+## [1. Investigating Relationships between Amount, Rental Rate, Return Date, and Rental Date](https://github.com/ccchriswong76/dvdrental_SQL/blob/2017e8477e8c4af29bbd1dd470a4c3a4b4e3c7de/relationship_date_price)
 
 ### 1a. Total Loss due to Unreturned DVDs
 #### Purpose: Calculate the sum of replacement costs for DVDs that were not returned. Transform payment amount to 0 when DVDs are not returned.
