@@ -5,6 +5,7 @@ This comprehensive analysis notebook focuses on exploring the intricacies of a P
 **Tools Used: PostgreSQL 15, PgAdmin 4**
 
 **Data Source:** [PostgreSQL Sample Database](https://www.postgresqltutorial.com/postgresql-getting-started/postgresql-sample-database/)
+
 **ER Diagram:** [Download PDF](https://github.com/ccchriswong76/dvdrental_SQL/blob/48a78287e7286cdf6038130f5e5b4297efada2b4/printable%20postgresql%20sample%20database%20digram.psd.pdf)
 
 ## Table of Contents
