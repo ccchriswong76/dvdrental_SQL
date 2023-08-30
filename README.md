@@ -4,8 +4,8 @@ PostgreSQL15/ Pg admin 4
 Data source: [PostgreSQL Sample Database](https://www.postgresqltutorial.com/postgresql-getting-started/postgresql-sample-database/)
 
 ER diagram: [Download PDF](https://github.com/ccchriswong76/dvdrental_SQL/blob/48a78287e7286cdf6038130f5e5b4297efada2b4/printable%20postgresql%20sample%20database%20digram.psd.pdf)
-
-## Investigating Relationships between Amount, Rental Rate, Return Date, and Rental Date[](https://github.com/ccchriswong76/dvdrental_SQL/tree/2017e8477e8c4af29bbd1dd470a4c3a4b4e3c7de/relationship_date_price)
+[](https://github.com/ccchriswong76/dvdrental_SQL/tree/2017e8477e8c4af29bbd1dd470a4c3a4b4e3c7de/relationship_date_price)
+## Investigating Relationships between Amount, Rental Rate, Return Date, and Rental Date
 
 ### 1. Total Loss due to Unreturned DVDs
 #### Purpose
