@@ -54,151 +54,129 @@ List distinct email domains to verify domain validity.
 #### 2b.3. Check Email Address Composition with Customer Name
 ##### Purpose
 Validate email addresses by comparing components with customer names.
-##### Output
-None (No output if all email addresses are valid)
+##### Output: None (No output if all email addresses are valid)
 
-## Word Frequency Analysis
+## [3. Word Frequency Analysis](https://github.com/ccchriswong76/dvdrental_SQL/tree/2017e8477e8c4af29bbd1dd470a4c3a4b4e3c7de/word_frequency_analysis)
 
 ### 3a. Lexeme Table Creation
 #### Purpose
 Transform fulltext data type and break down words.
-#### Output
-3a (Limited)
+#### Output: [3a(sample)](https://github.com/ccchriswong76/dvdrental_SQL/blob/2017e8477e8c4af29bbd1dd470a4c3a4b4e3c7de/word_frequency_analysis/3a.csv)
 
 ### 3b. Lexeme Frequency Analysis
 #### Purpose
 Identify most frequently appearing lexemes.
-#### Output
-3b
+#### Output: [3b](https://github.com/ccchriswong76/dvdrental_SQL/blob/2017e8477e8c4af29bbd1dd470a4c3a4b4e3c7de/word_frequency_analysis/3b.csv)
 
 ### 3c. Insight with "mad" Lexeme
 #### Purpose
 Explore insights related to the "mad" lexeme.
-#### Output
-3c
+#### Output: [3c](https://github.com/ccchriswong76/dvdrental_SQL/blob/2017e8477e8c4af29bbd1dd470a4c3a4b4e3c7de/word_frequency_analysis/3c.csv)
 
-## Overdue Customer Analysis
+## [4.Overdue Customer Analysis](https://github.com/ccchriswong76/dvdrental_SQL/tree/2017e8477e8c4af29bbd1dd470a4c3a4b4e3c7de/Rental_return_analysis)
 
 ### 4a. Customers Who Haven't Returned
 #### Purpose
 Identify customers who have not returned DVDs.
-#### Output
-4a
+#### Output: [4a](https://github.com/ccchriswong76/dvdrental_SQL/tree/2017e8477e8c4af29bbd1dd470a4c3a4b4e3c7de/Rental_return_analysis/4a.csv)
 
 ### 4b. Create Return Status
 #### Purpose
 Create a view to categorize return status based on rental duration and return dates.
-#### Output
-4b (Limited to 10 records)
+#### Output: [4b(sample)](https://github.com/ccchriswong76/dvdrental_SQL/tree/2017e8477e8c4af29bbd1dd470a4c3a4b4e3c7de/Rental_return_analysis/4b.csv)
 
 ### 4c. Customers Who Returned Later Than Expected
 #### Purpose
 Identify customers who returned DVDs later than the expected duration.
-#### Output
-4c (Limited to 10 records)
+#### Output: [4c(sample)](https://github.com/ccchriswong76/dvdrental_SQL/tree/2017e8477e8c4af29bbd1dd470a4c3a4b4e3c7de/Rental_return_analysis/4c.csv)
 
-## Customer Segmentation RFM Model
+## [5.Customer Segmentation RFM Model](https://github.com/ccchriswong76/dvdrental_SQL/tree/2017e8477e8c4af29bbd1dd470a4c3a4b4e3c7de/RFM)
 
 ### 5a. Sales Performance in Customer Level
 #### Purpose
 Calculate total sales, number of purchases, and latest payment day per customer.
-#### Output
-5a
+#### Output: [5a](https://github.com/ccchriswong76/dvdrental_SQL/blob/2017e8477e8c4af29bbd1dd470a4c3a4b4e3c7de/RFM/5a.csv)
 
 ### 5b. Normalize Values
 #### Purpose
 Normalize recency, monetary value, and frequency for RFM analysis.
-#### Output
-5b
+#### Output: [5b](https://github.com/ccchriswong76/dvdrental_SQL/blob/2017e8477e8c4af29bbd1dd470a4c3a4b4e3c7de/RFM/5b.csv)
 
 ### 5c. Calculate RFM Scores
 #### Purpose
 Calculate RFM scores in 5-level scale based on normalized values.
-#### Output
-5c
+#### Output: [5c](https://github.com/ccchriswong76/dvdrental_SQL/blob/2017e8477e8c4af29bbd1dd470a4c3a4b4e3c7de/RFM/5c.csv)
 
 ### 5d. Customer Segmentation
 #### Purpose
 Segment customers based on RFM scores into distinct categories.
-#### Output
-5d
+#### Output: [5d](https://github.com/ccchriswong76/dvdrental_SQL/blob/2017e8477e8c4af29bbd1dd470a4c3a4b4e3c7de/RFM/5d.csv)
 
-## Duplicate Check for Actor Table
+## [6.Duplicate Check for Actor Table](https://github.com/ccchriswong76/dvdrental_SQL/tree/2017e8477e8c4af29bbd1dd470a4c3a4b4e3c7de/Actor_analysis)
 
 ### 6a. Duplicate Actors
 #### Purpose
 Check for duplicate actors based on their first name and last name.
-#### Output
-6a
+#### Output: [6a](https://github.com/ccchriswong76/dvdrental_SQL/blob/2017e8477e8c4af29bbd1dd470a4c3a4b4e3c7de/Actor_analysis/6a.csv)
 
 ### 6b. Top 10 Actors by Film Count
 #### Purpose
 Rank actors based on their film appearance count and display the top 10.
-#### Output
-6b
+#### Output: [6b](https://github.com/ccchriswong76/dvdrental_SQL/blob/2017e8477e8c4af29bbd1dd470a4c3a4b4e3c7de/Actor_analysis/6b.csv)
 
-## Pre-Query
+## [7.Pre-Query](https://github.com/ccchriswong76/dvdrental_SQL/tree/2017e8477e8c4af29bbd1dd470a4c3a4b4e3c7de/Pre_check)
 
 ### 7a. Month Lookup Table
 #### Purpose
 Create a lookup table for months and their corresponding values using different methods.
-#### Output
-7a
+#### Output: [7a](https://github.com/ccchriswong76/dvdrental_SQL/blob/2017e8477e8c4af29bbd1dd470a4c3a4b4e3c7de/Pre_check/7a.csv)
 
 ### 7b. Movie Language Check
 #### Purpose
 Check the distribution of films based on language and release year.
-#### Output
-7b
-Result: All movies are in English language and were released in 2006.
+#### Output: [7b](https://github.com/ccchriswong76/dvdrental_SQL/blob/2017e8477e8c4af29bbd1dd470a4c3a4b4e3c7de/Pre_check/7b.csv)
+#### Result: All movies are in English language and were released in 2006.
 
 ### 7c. Rental and Payment Comparison
 #### Purpose
 Identify rental records without corresponding payment records.
-#### Output
-7c
-Result: There are 1452 records in the rental table that do not have corresponding payment records, suggesting possible discrepancies or unrecorded payments.
+#### Output [7c](https://github.com/ccchriswong76/dvdrental_SQL/blob/2017e8477e8c4af29bbd1dd470a4c3a4b4e3c7de/Pre_check/7c.csv)
+#### Result: There are 1452 records in the rental table that do not have corresponding payment records, suggesting possible discrepancies or unrecorded payments.
 
-## Film Revenue Analysis (Continued...)
+## [8.Film Revenue Analysis (Continued...)](https://github.com/ccchriswong76/dvdrental_SQL/tree/2017e8477e8c4af29bbd1dd470a4c3a4b4e3c7de/Film_actor_analysis)
 
 ### 8a. Film Revenue Metrics Calculation
 #### Purpose
 Calculate various metrics related to film revenue, including breakeven time of rental, rate of return, and breakeven day.
-#### Output
-8a (Film revenue metrics for each film)
+#### Output: [8a (Film revenue metrics for each film)](https://github.com/ccchriswong76/dvdrental_SQL/blob/2017e8477e8c4af29bbd1dd470a4c3a4b4e3c7de/Film_actor_analysis/8a.csv)
 
 ### 8b. Average Film Key Performance Indicators (KPIs)
 #### Purpose
 Calculate average rental duration, replacement cost, rental rate, breakeven time, rate of return, and breakeven day across films.
-#### Output
-8b (Average KPIs at film level)
+#### Output: [8b (Average KPIs at film level)](https://github.com/ccchriswong76/dvdrental_SQL/blob/2017e8477e8c4af29bbd1dd470a4c3a4b4e3c7de/Film_actor_analysis/8b.csv)
 
 ### 8c. Revenue by Film
 #### Purpose
 Calculate total sales expected and total count for each film based on rental records.
-#### Output
-8c (Revenue and count for each film)
+#### Output: [8c (Revenue and count for each film)](https://github.com/ccchriswong76/dvdrental_SQL/blob/2017e8477e8c4af29bbd1dd470a4c3a4b4e3c7de/Film_actor_analysis/8c.csv)
 
 ### 8d. Revenue by Film with Extra Info
 #### Purpose
 Join film revenue analysis with revenue by film data.
-#### Output
-8d (Combined film revenue and extra info)
+#### Output: [8d (Combined film revenue and extra info)](https://github.com/ccchriswong76/dvdrental_SQL/blob/2017e8477e8c4af29bbd1dd470a4c3a4b4e3c7de/Film_actor_analysis/8d.csv)
 
 ### 8e. Actor List for Each Film
 #### Purpose
 Generate a list of actors for each film using the film_actor and actor tables.
-#### Output
-8e (Actor lists for each film)
+#### Output: [8e (Actor lists for each film)](https://github.com/ccchriswong76/dvdrental_SQL/blob/2017e8477e8c4af29bbd1dd470a4c3a4b4e3c7de/Film_actor_analysis/8e.csv)
 
 ### 8f. Join Actor List in Film Info
 #### Purpose
 Join actor lists with film revenue data.
-#### Output
-8f (Joined actor lists with film revenue)
+#### Output: [8f (Joined actor lists with film revenue)](https://github.com/ccchriswong76/dvdrental_SQL/blob/2017e8477e8c4af29bbd1dd470a4c3a4b4e3c7de/Film_actor_analysis/8f.csv)
 
 ### 8g. Actor Ranking
 #### Purpose
 Rank actors based on their average film ranking, maximum rank, minimum rank, and film count. Filters out records with null film IDs.
-#### Output
-8g (Ranked actor information)
+#### Output: [8g (Ranked actor information)](https://github.com/ccchriswong76/dvdrental_SQL/blob/2017e8477e8c4af29bbd1dd470a4c3a4b4e3c7de/Film_actor_analysis/8g.csv)
+
