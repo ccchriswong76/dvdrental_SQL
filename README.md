@@ -8,48 +8,45 @@ This comprehensive analysis notebook focuses on exploring the intricacies of a P
 
 **ER Diagram:** [Download PDF](https://github.com/ccchriswong76/dvdrental_SQL/blob/48a78287e7286cdf6038130f5e5b4297efada2b4/printable%20postgresql%20sample%20database%20digram.psd.pdf)
 
-## Table of Contents
 
-### 1. Investigating Relationships between Amount, Rental Rate, Return Date, and Rental Date
+## 1. Investigating Relationships between Amount, Rental Rate, Return Date, and Rental Date
    - [1a. Total Loss due to Unreturned DVDs](https://github.com/ccchriswong76/dvdrental_SQL/blob/2017e8477e8c4af29bbd1dd470a4c3a4b4e3c7de/relationship_date_price/1a.csv) - Calculate the sum of replacement costs for DVDs that were not returned. Transform payment amount to 0 when DVDs are not returned.
    - [1b. Amount-Payment Discrepancies](https://github.com/ccchriswong76/dvdrental_SQL/blob/2017e8477e8c4af29bbd1dd470a4c3a4b4e3c7de/relationship_date_price/1b.csv) - Identify discrepancies between payment amount and rental rate. Analyze the difference between extra earnings and extra days due to late return charges.
    - [1c. Investigating Discrepancies in Extra Earnings and Extra Dates](https://github.com/ccchriswong76/dvdrental_SQL/blob/2017e8477e8c4af29bbd1dd470a4c3a4b4e3c7de/relationship_date_price/1c.csv) - Examine cases where the calculated extra earnings and extra days differ. Aggregate counts of such occurrences.
-     - [1c.1 Investigating Near -1 Differences](https://github.com/ccchriswong76/dvdrental_SQL/blob/2017e8477e8c4af29bbd1dd470a4c3a4b4e3c7de/relationship_date_price/1c1.csv) - Explore records with a near -1 difference between extra earnings and extra days. Analyze potential rounding problems.
+   - [1c.1 Investigating Near -1 Differences](https://github.com/ccchriswong76/dvdrental_SQL/blob/2017e8477e8c4af29bbd1dd470a4c3a4b4e3c7de/relationship_date_price/1c1.csv) - Explore records with a near -1 difference between extra earnings and extra days. Analyze potential rounding problems.
    - [1d. Investigating Records with Extra Differences below -1](https://github.com/ccchriswong76/dvdrental_SQL/blob/2017e8477e8c4af29bbd1dd470a4c3a4b4e3c7de/relationship_date_price/1d.csv) - Examine records with extra earnings minus extra days below -1. Review cases beyond rounding discrepancies.
 
-### 2. Proportion of Customers by Store and Active Status
+## 2. Proportion of Customers by Store and Active Status
    - [2a. Customer Distribution by Store and Active Status](https://github.com/ccchriswong76/dvdrental_SQL/tree/2017e8477e8c4af29bbd1dd470a4c3a4b4e3c7de/customer_analysis/2a.csv) - Calculate the count and percentage of customers based on store and active status.
-   - 2b. Email Validation and Composition Check
-     - [2b.1. Breakdown Email Components](https://github.com/ccchriswong76/dvdrental_SQL/tree/2017e8477e8c4af29bbd1dd470a4c3a4b4e3c7de/customer_analysis/2b.csv) - Separate email addresses into components such as first name, last name, and email domain.
-     - [2b.2. Distinct Email Domains](https://github.com/ccchriswong76/dvdrental_SQL/tree/2017e8477e8c4af29bbd1dd470a4c3a4b4e3c7de/customer_analysis/2c.csv) - List distinct email domains to verify domain validity.
-     - 2b.3. Check Email Address Composition with Customer Name - Validate email addresses by comparing components with customer names.
+   - [2b. Email Validation and Composition Check](https://github.com/ccchriswong76/dvdrental_SQL/tree/2017e8477e8c4af29bbd1dd470a4c3a4b4e3c7de/customer_analysis/2b.csv) - Validate email addresses by separating components and checking domains.
+   - [2c. Distinct Email Domains](https://github.com/ccchriswong76/dvdrental_SQL/tree/2017e8477e8c4af29bbd1dd470a4c3a4b4e3c7de/customer_analysis/2c.csv) - List distinct email domains to verify domain validity.
 
-### 3. Word Frequency Analysis
+## 3. Word Frequency Analysis
    - [3a. Lexeme Table Creation](https://github.com/ccchriswong76/dvdrental_SQL/blob/2017e8477e8c4af29bbd1dd470a4c3a4b4e3c7de/word_frequency_analysis/3a.csv) - Transform fulltext data type and break down words.
    - [3b. Lexeme Frequency Analysis](https://github.com/ccchriswong76/dvdrental_SQL/blob/2017e8477e8c4af29bbd1dd470a4c3a4b4e3c7de/word_frequency_analysis/3b.csv) - Identify most frequently appearing lexemes.
    - [3c. Insight with "mad" Lexeme](https://github.com/ccchriswong76/dvdrental_SQL/blob/2017e8477e8c4af29bbd1dd470a4c3a4b4e3c7de/word_frequency_analysis/3c.csv) - Explore insights related to the "mad" lexeme.
 
-### 4. Overdue Customer Analysis
+## 4. Overdue Customer Analysis
    - [4a. Customers Who Haven't Returned](https://github.com/ccchriswong76/dvdrental_SQL/tree/2017e8477e8c4af29bbd1dd470a4c3a4b4e3c7de/Rental_return_analysis/4a.csv) - Identify customers who have not returned DVDs.
    - [4b. Create Return Status](https://github.com/ccchriswong76/dvdrental_SQL/tree/2017e8477e8c4af29bbd1dd470a4c3a4b4e3c7de/Rental_return_analysis/4b.csv) - Create a view to categorize return status based on rental duration and return dates.
    - [4c. Customers Who Returned Later Than Expected](https://github.com/ccchriswong76/dvdrental_SQL/tree/2017e8477e8c4af29bbd1dd470a4c3a4b4e3c7de/Rental_return_analysis/4c.csv) - Identify customers who returned DVDs later than the expected duration.
 
-### 5. Customer Segmentation RFM Model
+## 5. Customer Segmentation RFM Model
    - [5a. Sales Performance in Customer Level](https://github.com/ccchriswong76/dvdrental_SQL/blob/2017e8477e8c4af29bbd1dd470a4c3a4b4e3c7de/RFM/5a.csv) - Calculate total sales, number of purchases, and latest payment day per customer.
    - [5b. Normalize Values](https://github.com/ccchriswong76/dvdrental_SQL/blob/2017e8477e8c4af29bbd1dd470a4c3a4b4e3c7de/RFM/5b.csv) - Normalize recency, monetary value, and frequency for RFM analysis.
-   - [5c. Calculate RFM Scores](https://github.com/ccchriswong76/dvdrental_SQL/blob/2017e8477e8c4af29bbd1dd470a4c3a4b4e3c7de/RFM/5c.csv) - Calculate RFM scores in 5-level scale based on normalized values.
+   - [5c. Calculate RFM Scores](https://github.com/ccchriswong76/dvdrental_SQL/blob/2017e8477e8c4af29bbd1dd470a4c3a4b4e3c7de/RFM/5c.csv) - Calculate RFM scores in a 5-level scale based on normalized values.
    - [5d. Customer Segmentation](https://github.com/ccchriswong76/dvdrental_SQL/blob/2017e8477e8c4af29bbd1dd470a4c3a4b4e3c7de/RFM/5d.csv) - Segment customers based on RFM scores into distinct categories.
 
-### 6. Duplicate Check for Actor Table
+## 6. Duplicate Check for Actor Table
    - [6a. Duplicate Actors](https://github.com/ccchriswong76/dvdrental_SQL/blob/2017e8477e8c4af29bbd1dd470a4c3a4b4e3c7de/Actor_analysis/6a.csv) - Check for duplicate actors based on their first name and last name.
    - [6b. Top 10 Actors by Film Count](https://github.com/ccchriswong76/dvdrental_SQL/blob/2017e8477e8c4af29bbd1dd470a4c3a4b4e3c7de/Actor_analysis/6b.csv) - Rank actors based on their film appearance count and display the top 10.
 
-### 7. Pre-Query
+## 7. Pre-Query
    - [7a. Month Lookup Table](https://github.com/ccchriswong76/dvdrental_SQL/blob/2017e8477e8c4af29bbd1dd470a4c3a4b4e3c7de/Pre_check/7a.csv) - Create a lookup table for months and their corresponding values using different methods.
    - [7b. Movie Language Check](https://github.com/ccchriswong76/dvdrental_SQL/blob/2017e8477e8c4af29bbd1dd470a4c3a4b4e3c7de/Pre_check/7b.csv) - Check the distribution of films based on language and release year.
    - [7c. Rental and Payment Comparison](https://github.com/ccchriswong76/dvdrental_SQL/blob/2017e8477e8c4af29bbd1dd470a4c3a4b4e3c7de/Pre_check/7c.csv) - Identify rental records without corresponding payment records.
 
-### 8. Film Revenue Analysis (Continued...)
+## 8. Film Revenue Analysis (Continued...)
    - [8a. Film Revenue Metrics Calculation](https://github.com/ccchriswong76/dvdrental_SQL/blob/2017e8477e8c4af29bbd1dd470a4c3a4b4e3c7de/Film_actor_analysis/8a.csv) - Calculate various metrics related to film revenue, including breakeven time of rental, rate of return, and breakeven day.
    - [8b. Average Film Key Performance Indicators (KPIs)](https://github.com/ccchriswong76/dvdrental_SQL/blob/2017e8477e8c4af29bbd1dd470a4c3a4b4e3c7de/Film_actor_analysis/8b.csv) - Calculate average rental duration, replacement cost, rental rate, breakeven time, rate of return, and breakeven day across films.
    - [8c. Revenue by Film](https://github.com/ccchriswong76/dvdrental_SQL/blob/2017e8477e8c4af29bbd1dd470a4c3a4b4e3c7de/Film_actor_analysis/8c.csv) - Calculate total sales expected and total count for each film based on rental records.
