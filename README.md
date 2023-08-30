@@ -7,7 +7,7 @@ ER diagram: [Download PDF](https://github.com/ccchriswong76/dvdrental_SQL/blob/4
 
 ## Investigating Relationships between Amount, Rental Rate, Return Date, and Rental Date
 
-### 1. Total Loss due to Unreturned DVDs
+### [1. Total Loss due to Unreturned DVDs](https://github.com/ccchriswong76/dvdrental_SQL/tree/2017e8477e8c4af29bbd1dd470a4c3a4b4e3c7de/relationship_date_price)
 #### Purpose
 Calculate the sum of replacement costs for DVDs that were not returned. Transform payment amount to 0 when DVDs are not returned.
 #### Output
