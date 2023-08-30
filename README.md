@@ -10,31 +10,27 @@ ER diagram: [Download PDF](https://github.com/ccchriswong76/dvdrental_SQL/blob/4
 ### 1. Total Loss due to Unreturned DVDs
 #### Purpose
 Calculate the sum of replacement costs for DVDs that were not returned. Transform payment amount to 0 when DVDs are not returned.
-#### Output: [1a1](https://github.com/ccchriswong76/dvdrental_SQL/blob/2017e8477e8c4af29bbd1dd470a4c3a4b4e3c7de/relationship_date_price/1a.csv)
+#### Output: [1a](https://github.com/ccchriswong76/dvdrental_SQL/blob/2017e8477e8c4af29bbd1dd470a4c3a4b4e3c7de/relationship_date_price/1a.csv) [1a1](https://github.com/ccchriswong76/dvdrental_SQL/blob/2017e8477e8c4af29bbd1dd470a4c3a4b4e3c7de/relationship_date_price/1a1.csv)
 
 ### 2. Amount-Payment Discrepancies
 #### Purpose
 Identify discrepancies between payment amount and rental rate. Analyze the difference between extra earnings and extra days due to late return charges.
-#### Output
-1b
+#### Output: [1b](https://github.com/ccchriswong76/dvdrental_SQL/blob/2017e8477e8c4af29bbd1dd470a4c3a4b4e3c7de/relationship_date_price/1b.csv)
 
 ### 3. Investigating Discrepancies in Extra Earnings and Extra Dates
 #### Purpose
 Examine cases where the calculated extra earnings and extra days differ. Aggregate counts of such occurrences.
-#### Output
-1c
+#### Output: [1c](https://github.com/ccchriswong76/dvdrental_SQL/blob/2017e8477e8c4af29bbd1dd470a4c3a4b4e3c7de/relationship_date_price/1c.csv)
 
 ### 4. Investigating Near -1 Differences
 #### Purpose
 Explore records with a near -1 difference between extra earnings and extra days. Analyze potential rounding problems.
-#### Output
-1c1
+#### Output: [1c](https://github.com/ccchriswong76/dvdrental_SQL/blob/2017e8477e8c4af29bbd1dd470a4c3a4b4e3c7de/relationship_date_price/1c1.csv)
 
 ### 5. Investigating Records with Extra Differences below -1
 #### Purpose
 Examine records with extra earnings minus extra days below -1. Review cases beyond rounding discrepancies.
-#### Output
-1d
+#### Output: [1d](https://github.com/ccchriswong76/dvdrental_SQL/blob/2017e8477e8c4af29bbd1dd470a4c3a4b4e3c7de/relationship_date_price/1d.csv)
 
 ## Proportion of Customers by Store and Active Status
 
