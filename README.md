@@ -25,34 +25,31 @@ Examine cases where the calculated extra earnings and extra days differ. Aggrega
 ### 4. Investigating Near -1 Differences
 #### Purpose
 Explore records with a near -1 difference between extra earnings and extra days. Analyze potential rounding problems.
-#### Output: [1c](https://github.com/ccchriswong76/dvdrental_SQL/blob/2017e8477e8c4af29bbd1dd470a4c3a4b4e3c7de/relationship_date_price/1c1.csv)
+#### Output: [1c1](https://github.com/ccchriswong76/dvdrental_SQL/blob/2017e8477e8c4af29bbd1dd470a4c3a4b4e3c7de/relationship_date_price/1c1.csv)
 
 ### 5. Investigating Records with Extra Differences below -1
 #### Purpose
 Examine records with extra earnings minus extra days below -1. Review cases beyond rounding discrepancies.
 #### Output: [1d](https://github.com/ccchriswong76/dvdrental_SQL/blob/2017e8477e8c4af29bbd1dd470a4c3a4b4e3c7de/relationship_date_price/1d.csv)
 
-## Proportion of Customers by Store and Active Status
+## [Proportion of Customers by Store and Active Status](https://github.com/ccchriswong76/dvdrental_SQL/tree/2017e8477e8c4af29bbd1dd470a4c3a4b4e3c7de/customer_analysis)
 
 ### 2a. Customer Distribution by Store and Active Status
 #### Purpose
 Calculate the count and percentage of customers based on store and active status.
-#### Output
-2a
+#### Output: [2a](https://github.com/ccchriswong76/dvdrental_SQL/tree/2017e8477e8c4af29bbd1dd470a4c3a4b4e3c7de/customer_analysis/2a.csv) 
 
 ### 2b. Email Validation and Composition Check
 
 #### 2b.1. Breakdown Email Components
 ##### Purpose
 Separate email addresses into components such as first name, last name, and email domain.
-##### Output
-2b
+##### Output: [2b](https://github.com/ccchriswong76/dvdrental_SQL/tree/2017e8477e8c4af29bbd1dd470a4c3a4b4e3c7de/customer_analysis/2b.csv) 
 
 #### 2b.2. Distinct Email Domains
 ##### Purpose
 List distinct email domains to verify domain validity.
-##### Output
-2c
+##### Output: [2c](https://github.com/ccchriswong76/dvdrental_SQL/tree/2017e8477e8c4af29bbd1dd470a4c3a4b4e3c7de/customer_analysis/2c.csv) 
 
 #### 2b.3. Check Email Address Composition with Customer Name
 ##### Purpose
